@@ -1,0 +1,7 @@
+{
+  "name": "La Discothèque Vinyle",
+  "description": "Discothèque vinyle de référence avec gestion de collection, liste de recherche prioritaire pour disquaires et brocantes d'occasion, notation des trouvailles et export CSV.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

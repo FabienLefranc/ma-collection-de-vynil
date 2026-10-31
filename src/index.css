@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --font-bebas: "Bebas Neue", sans-serif;
+  --font-sans: "IBM Plex Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", monospace;
+}
+
+:root {
+  --bg: #F6F1E6;
+  --surface: #1E1913;
+  --surface-2: #251F17;
+  --groove: #3A3226;
+  --cream: #F1E9D8;
+  --cream-dim: #B7AD98;
+  --amber: #E2A53C;
+  --rust: #C3452F;
+  --denim: #4A5F82;
+  --brass: #9C8544;
+  --forest: #5E7A4F;
+  --mauve: #B45E72;
+  --tan: #B0752E;
+  --emerald: #2F7A63;
+  --owned: #6E8F5C;
+  --wanted: #C3452F;
+}
+
+/* Custom scrollbars for crate digging feel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F6F1E6;
+}
+::-webkit-scrollbar-thumb {
+  background: #3A3226;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E2A53C;
+}
