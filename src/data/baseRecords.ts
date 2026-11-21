@@ -2415,6 +2415,15 @@ const RAW_RECORDS: RawRecord[] = [
     status: "wanted",
     coverUrl: "/covers/cranberries.jpg",
   },
+  {
+    artist: "The Rolling Stones",
+    album: "Foreign Tongues",
+    year: 2026,
+    genre: "rock",
+    why: "25e album studio enregistré en un mois avec Andrew Watt, avec l'un des derniers enregistrements de Charlie Watts et des invités prestigieux.",
+    indicativePrice: "36–41 €",
+    status: "wanted",
+  },
 ];
 
 const KNOWN_LOCAL_COVERS: Record<string, string> = {
